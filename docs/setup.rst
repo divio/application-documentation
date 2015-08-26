@@ -38,7 +38,8 @@ Enter the project version numbers::
     > Project version: 0.1
     > Project release [0.1]:
 
-.. todo:: add link to automatic version detection
+Later we will change the documentation's ``conf.py`` so that :ref:`these values are picked
+up automatically <version_detection>` from the code.
 
 We want to enable to-do notes::
 
