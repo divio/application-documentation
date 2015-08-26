@@ -1,6 +1,6 @@
-#########################################
-Setting your docs using sphinx-quickstart
-#########################################
+##########
+Setting up
+##########
 
 If your project doesn't already have a ``docs`` directory for Sphinx-based documentation, you'll
 need to set it up.
