@@ -15,3 +15,5 @@ In a few moments, your documentation should be successfully built and available.
 
 Hit **View** to see your published documentation, and all the typos and mistakes that you missed
 when you were proof-reading it locally.
+
+Future pushes to GitHub will rebuild the documentation automatically.

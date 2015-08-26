@@ -32,24 +32,34 @@ Introduction
 
 ``introduction/``: step-by-step, beginning-to-end tutorials to get users up and running
 
-  These tutorials must lead the user all the way to an end-point, in such a way that even if
-  they barely understand what is happening, simply by following the steps they will be left
-  with a successful, working result.
+These tutorials must lead the user all the way to an end-point, in such a way that even if
+they barely understand what is happening, simply by following the steps they will be left
+with a successful, working result.
 
-  The point of the Introduction is **not** to explain, but to lead the user through some simple
-  steps.
+The point of the Introduction is **not** to explain, but to lead the user through some simple
+steps.
 
-  The first section in the Introduction should be:
 
-  * **Installation** (``introduction/installation.rst``)
+Installation
+============
 
-  If appropriate, you should also provide a:
+``introduction/installation.rst``
 
-  * **Basic usage** (``introduction/basic_usage.rst``)
+The Installation section needs to be reasonably comprehensive. See the `Aldryn Jobs installation
+section <http://aldryn-jobs.readthedocs.org/en/latest/introduction/installation.html>`_ for an
+example.
 
-  that describes some minimal steps required actually to do something with the software.
+The Installation section is *required*.
 
-  The Introduction is *required*.
+
+Basic usage
+===========
+
+``introduction/basic_usage.rst``
+
+This section describes some minimal steps required actually to do something with the software.
+
+If these steps are not unnecessary, or are not completely obvious, this section is *required*.
 
 
 *************
