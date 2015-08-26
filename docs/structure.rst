@@ -17,68 +17,102 @@ A typical project night look like::
 	user/
 		index.rst
 
-In more detail:
+****
+Home
+****
 
-* **Home** (``index.rst``): the root page of the documentation
+(``index.rst``): the root page of the documentation
 
-  This should contain a brief description of the application, and links to its GitHub repository
-  and key related sites (such as django CMS or Aldryn)
+This should contain a brief description of the application, and links to its GitHub repository
+and key related sites (such as django CMS or Aldryn)
 
-    * **Introduction** (``introduction/``): step-by-step, beginning-to-end tutorials to get
-      users up and running
+************
+Introduction
+************
 
-      These tutorials must lead the user all the way to an end-point, in such a way that even if
-      they barely understand what is happening, simply by following the steps they will be left
-      with a successful, working result.
+``introduction/``: step-by-step, beginning-to-end tutorials to get users up and running
 
-      The point of the Introduction is **not** to explain, but to lead the user through some simple
-      steps.
+  These tutorials must lead the user all the way to an end-point, in such a way that even if
+  they barely understand what is happening, simply by following the steps they will be left
+  with a successful, working result.
 
-      The first section in the Introduction should be:
+  The point of the Introduction is **not** to explain, but to lead the user through some simple
+  steps.
 
-      * **Installation** (``introduction/installation.rst``)
+  The first section in the Introduction should be:
 
-      If appropriate, you should also provide a:
+  * **Installation** (``introduction/installation.rst``)
 
-      * **Basic usage** (``introduction/basic_usage.rst``)
+  If appropriate, you should also provide a:
 
-      that describes some minimal steps required actually to do something with the software.
+  * **Basic usage** (``introduction/basic_usage.rst``)
 
-      The Introduction is *required*.
+  that describes some minimal steps required actually to do something with the software.
 
-    * **How-to guides** (``how_to/``): step-by-step guides covering more advanced development
+  The Introduction is *required*.
 
-      If your documentation has some more free-form guides, that cover key steps in some process but
-      not all of them, they should go into the how-to section.
 
-      The how-to section is optional.
+*************
+How-to guides
+*************
 
-    * **Key topics** (``topics/``): discussions and explanations of key parts of the system
+``how_to/``: step-by-step guides covering more advanced development
 
-      The topics section is optional.
+If your documentation has some more free-form guides, that cover key steps in some process but
+not all of them, they should go into the how-to section.
 
-    * **Reference** (``reference``): technical reference for APIs, key models and so on
+The how-to section is optional.
 
-      The topics section is optional, but recommended if APIs and models are complex enough to have
-      several options that need to spelled out.
 
-    * **Development & community** (``contributing``)
+**********
+Key topics
+**********
 
-      Not usually required; generally, a note in the README and in the main ``index.rst`` will
-      suffice.
+``topics/``: discussions and explanations of key parts of the system
 
-    * **Release notes & upgrade information** (``upgrade``)
+The topics section is optional.
 
-      Strongly recommended.
 
-    * **Using <name of application>** (``user``): guides for *using* rather than setting up or
-      developing for the software
+*********
+Reference
+*********
 
-      The ``user`` should as nearly as possible be a stand-alone section, so that an end-user who is
-      not a developer finds it useful.
+``reference/``: technical reference for APIs, key models and so on
 
-      The ``introduction/basic_usage.rst`` section should have left the system in a state to make
-      this possible. See for example the `Aldryn Jobs documentation
-      <http://aldryn-jobs.readthedocs.org>`_, in which the `Using Aldryn Jobs
-      <http://aldryn-jobs.readthedocs.org/en/latest/user/index.html#using-aldryn-jobs>`_ section
-      assumes that the Introduction has configured the basics in the admin.
+The topics section is optional, but recommended if APIs and models are complex enough to have
+several options that need to spelled out.
+
+
+***********************
+Development & community
+***********************
+
+``contributing/``
+
+Not usually required; generally, a note in the README and in the main ``index.rst`` will
+suffice.
+
+
+***********************************
+Release notes & upgrade information
+***********************************
+
+``upgrade/``
+
+Strongly recommended.
+
+
+***************************
+Using <name of application>
+***************************
+
+``user/``: guides for *using* rather than setting up or developing for the software
+
+The ``user`` documentation should as nearly as possible be a stand-alone section, so that an
+end-user who is not a developer finds it useful.
+
+The ``introduction/basic_usage.rst`` section should have left the system in a state to make
+this possible. See for example the `Aldryn Jobs documentation
+<http://aldryn-jobs.readthedocs.org>`_, in which the `Using Aldryn Jobs
+<http://aldryn-jobs.readthedocs.org/en/latest/user/index.html#using-aldryn-jobs>`_ section
+assumes that the Introduction has configured the basics in the admin.

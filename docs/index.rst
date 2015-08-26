@@ -9,6 +9,7 @@ projects.
    :maxdepth: 1
 
    setup
+   conf
    structure
    markup
    readme_and_github
