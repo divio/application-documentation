@@ -10,6 +10,7 @@ projects.
 
    setup
    conf
+   starter_files
    general_standards
    structure
    markup
