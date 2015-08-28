@@ -10,6 +10,7 @@ projects.
 
    setup
    conf
+   general_standards
    structure
    markup
    readme_and_github

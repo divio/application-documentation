@@ -1,30 +1,34 @@
-#######################
-Documentation structure
-#######################
+#########
+Structure
+#########
 
 All Divio/Aldryn documentation should share as far as possible a common overall structure, with an
 ``index.rst`` file at the root of each directory.
 
-A typical project night look like::
+A typical project might contain::
 
-	index.rst
-	introduction/
-		index.rst
-		installation.rst
-		basic_usage.rst
-	reference/
-		index.rst
-	user/
-		index.rst
+    docs/
+    	index.rst
+    	introduction/
+    		index.rst
+    		installation.rst
+    		basic_usage.rst
+    	reference/
+    		index.rst
+    	user/
+    		index.rst
 
 ****
 Home
 ****
 
-(``index.rst``): the root page of the documentation
+``index.rst``: the root page of the documentation
 
 This should contain a brief description of the application, and links to its GitHub repository
-and key related sites (such as django CMS or Aldryn)
+and key related sites (such as django CMS or Aldryn).
+
+It will typically share some of the same content as the README.
+
 
 ************
 Introduction
@@ -45,9 +49,10 @@ Installation
 
 ``introduction/installation.rst``
 
-The Installation section needs to be reasonably comprehensive. See the `Aldryn Jobs installation
-section <http://aldryn-jobs.readthedocs.org/en/latest/introduction/installation.html>`_ for an
-example.
+The Installation section needs to be reasonably comprehensive.
+
+Example: `Aldryn Jobs installation
+<http://aldryn-jobs.readthedocs.org/en/latest/introduction/installation.html>`_.
 
 The Installation section is *required*.
 
@@ -57,9 +62,14 @@ Basic usage
 
 ``introduction/basic_usage.rst``
 
-This section describes some minimal steps required actually to do something with the software.
+This section describes some minimal steps required actually to do something with the software, the
+steps you'd expect the site administrator to do to set it up within the Django admin, but **not**
+the ordinary content editor.
 
-If these steps are not unnecessary, or are not completely obvious, this section is *required*.
+Example: `Aldryn Jobs basic usage
+<http://aldryn-jobs.readthedocs.org/en/latest/introduction/basic_usage.html>`_.
+
+Unless these steps are unnecessary, or are completely obvious, this section is *required*.
 
 
 *************
@@ -92,6 +102,8 @@ Reference
 The topics section is optional, but recommended if APIs and models are complex enough to have
 several options that need to spelled out.
 
+Example: `Aldryn Jobs reference
+<http://aldryn-jobs.readthedocs.org/en/latest/reference/index.html>`_.
 
 ***********************
 Development & community
