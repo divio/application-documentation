@@ -133,8 +133,21 @@ Using <name of application>
 The ``user`` documentation should as nearly as possible be a stand-alone section, so that an
 end-user who is not a developer finds it useful.
 
-The ``introduction/basic_usage.rst`` section should have left the system in a state to make
-this possible. See for example the `Aldryn Jobs documentation
-<http://aldryn-jobs.readthedocs.org>`_, in which the `Using Aldryn Jobs
-<http://aldryn-jobs.readthedocs.org/en/latest/user/index.html#using-aldryn-jobs>`_ section
-assumes that the Introduction has configured the basics in the admin.
+.. note::
+
+   The ``introduction/basic_usage.rst`` section should have left the system in a state to make this
+   possible. See for example the `Aldryn Jobs documentation <http://aldryn-jobs.readthedocs.org>`_,
+   in which the `Using Aldryn Jobs
+   <http://aldryn-jobs.readthedocs.org/en/latest/user/index.html#using-aldryn-jobs>`_ section
+   assumes that the Introduction has configured the basics in the admin.
+
+The user-facing documentation needs to be written for a *user*, not simply for a developer or
+technical expert who happens to be using it. It should describe the *interface* the user will see,
+the *actions* they can take, and the *effects* that will follow.
+
+It should not describe what happens behind the scenes, and it should not rely on technical terms in
+its explanations (expanations in general belong in the *Key topics* section).
+
+As far as possible, the ``user`` documentation needs to take the user through simple steps of
+operation so that they can see how to achieve basic things with it.
+
