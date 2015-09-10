@@ -11,7 +11,9 @@ file that is automatically created by ``sphinx-quickstart``.
 Theme
 *****
 
-In ``conf.py`` you will find::
+At the top of ``conf.py`` ensure that ``sys`` is imported as well as ``os``.
+
+Find the section::
 
     # -- Options for HTML output ----------------------------------------------
     html_theme = 'alabaster'

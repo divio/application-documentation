@@ -33,6 +33,9 @@ Add the following to the end of the ``docs/conf.py`` file::
 Add ``Makefile`` command
 ========================
 
+.. warning:: In a ``Makefile`` any whitespace at the start of a line **must** be a tab. If you use
+    spaces, you'll get an unfriendly error message: ``Makefile:196: *** missing separator.  Stop.``
+
 In the ``Makefile``, add::
 
     @echo "  spelling  to check for typos in documentation"
