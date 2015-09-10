@@ -17,7 +17,7 @@ In ``conf.py`` you will find::
     html_theme = 'alabaster'
 
 *Alabaster* is a plain and perfectly functional theme, but both on the `Read the Docs
-<readthedocs.org>`_ website and when building locally, you will want your domentation to use the
+<readthedocs.org>`_ website and when building locally, you will want your documentation to use the
 ``sphinx_rtd_theme``.
 
 In place of the line setting the ``html_theme``, add::

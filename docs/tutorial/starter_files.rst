@@ -19,8 +19,8 @@ For a brand-new project
 * Follow the directions for `setting up <http://application-documentation.readthedocs.org>`_ and
   then `configuring <http://application-documentation.readthedocs.org>`_ your documentation.
 
-* ``git clone git@github.com:divio/application-documentation-starter-files.git`` (i.e. this
-  repository) into another directory.
+* ``git clone git@github.com:divio/application-documentation-starter-files.git`` (i.e. the
+  repository of starter files) into another directory.
 
 * Copy the *contents of* (i.e. not the directory itself) the ``starter-docs`` directory of this
   project into your project's ``docs`` directory.
@@ -51,7 +51,7 @@ After your search and replaces, you will still need to go through the documentat
 correct:
 
 * line wrapping changes
-* underline/overlne of headings
+* underline/overline of headings
 
 
 Provide actual content

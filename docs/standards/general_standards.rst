@@ -4,9 +4,9 @@ General standards
 
 Documentation should be:
 
-* :doc:`structured </structure>` correctly
+* :doc:`structured </standards/structure>` correctly
 * written using valid `Sphinx <http://sphinx-doc.org>`_/`restructuredText
-  <http://sphinx-doc.org/rest.html>`_ syntax (see :doc:`/markup` for specifics)
+  <http://sphinx-doc.org/rest.html>`_ syntax (see :doc:`/standards/markup` for specifics)
 * in files with the extension ``.rst``
 * wrapped at 100 characters per line
 * written in English, using British English spelling and punctuation

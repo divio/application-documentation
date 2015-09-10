@@ -146,7 +146,7 @@ technical expert who happens to be using it. It should describe the *interface* 
 the *actions* they can take, and the *effects* that will follow.
 
 It should not describe what happens behind the scenes, and it should not rely on technical terms in
-its explanations (expanations in general belong in the *Key topics* section).
+its explanations (explanations in general belong in the *Key topics* section).
 
 As far as possible, the ``user`` documentation needs to take the user through simple steps of
 operation so that they can see how to achieve basic things with it.

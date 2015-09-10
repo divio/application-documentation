@@ -9,7 +9,7 @@ README.rst
 The README file should be written in RST.
 
 Typically it will repeat much the same information that is in the root ``index.rst`` file (see
-:doc:`/structure`).
+:doc:`/standards/structure`).
 
 You can also add badges for CI and so on.
 
