@@ -38,15 +38,15 @@ Add ``Makefile`` command
 
 In the ``Makefile``, add::
 
-    @echo "  spelling  to check for typos in documentation"
+	@echo "  spelling  to check for typos in documentation"
 
 to the ``help`` section, and::
 
-    spelling:
-    	$(SPHINXBUILD) -b spelling $(ALLSPHINXOPTS) _build/spelling
-    	@echo
-    	@echo "Check finished. Wrong words can be found in " \
-    		"_build/spelling/output.txt."
+	spelling:
+		$(SPHINXBUILD) -b spelling $(ALLSPHINXOPTS) _build/spelling
+		@echo
+		@echo "Check finished. Wrong words can be found in " \
+			"_build/spelling/output.txt."
 
 to the end of the same file (check of course that similar lines have not already been added).
 
