@@ -294,3 +294,19 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+
+# -- Options for spelling checks ----------------------------------------------
+
+# Spelling check needs an additional module that is not installed by default.
+# Add it only if spelling check is requested so docs can be generated without it.
+if 'spelling' in sys.argv:
+    extensions.append("sphinxcontrib.spelling")
+
+# Spelling language.
+spelling_lang = 'en_GB'
+
+# Location of word list.
+spelling_word_list_filename = 'spelling_wordlist'
+
+spelling_ignore_pypi_package_names = True

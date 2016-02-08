@@ -5,14 +5,11 @@ Application documentation
 This document contains guidelines and examples for documentation in Divio/Aldryn application
 projects.
 
-.. toctree::
-   :maxdepth: 1
+Start with the :doc:`tutorial sections </tutorial/index>`, and use the :doc:`standards guidance
+</standards/index>` to check that your documentation conforms to them.
 
-   setup
-   conf
-   starter_files
-   general_standards
-   structure
-   markup
-   readme_and_github
-   rtfd
+.. toctree::
+   :maxdepth: 2
+
+   tutorial/index
+   standards/index

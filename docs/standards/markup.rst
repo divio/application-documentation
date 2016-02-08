@@ -38,7 +38,7 @@ Inline markup
 
         The ``cms.models.pagemodel`` contains several important methods.
 
-    * filenames::
+    * file names::
 
         Before you start, edit ``settings.py``.
 

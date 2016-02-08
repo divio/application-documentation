@@ -11,13 +11,15 @@ file that is automatically created by ``sphinx-quickstart``.
 Theme
 *****
 
-In ``conf.py`` you will find::
+At the top of ``conf.py`` ensure that ``sys`` is imported as well as ``os``.
+
+Find the section::
 
     # -- Options for HTML output ----------------------------------------------
     html_theme = 'alabaster'
 
 *Alabaster* is a plain and perfectly functional theme, but both on the `Read the Docs
-<readthedocs.org>`_ website and when building locally, you will want your domentation to use the
+<readthedocs.org>`_ website and when building locally, you will want your documentation to use the
 ``sphinx_rtd_theme``.
 
 In place of the line setting the ``html_theme``, add::
@@ -50,14 +52,17 @@ extract these automatically from the software itself.
 
 You'll find lines in ``conf.py`` that set the ``version`` and ``release``.  Replace these with::
 
-    # The short X.Y version.
-    import application_name  # substitute the actual application name here
-    version = application_name.__version__
-    # The full version, including alpha/beta/rc tags.
-    release = application_name.__version__
+	try:
+	    application_name  # substitute the actual application name here
+	except ImportError:
+	    version = release = "undefined"
+	else:
+	    version = application_name.__version__   # substitute the actual application name here
+	    # The full version, including alpha/beta/rc tags.
+	    release = application_name.__version__   # substitute the actual application name here
 
-Obviously, this requires your application to provide this information in the first place.
+This tries to import the application, and extract the version information (obviously, this requires
+your application to provide this information in the first place).
 
-It also means that your application needs to be installed in your environment, but the benefits
-outweigh this minor inconvenience; in most cases, users will not just be building the documentation
-but will have the application installed too.
+If it can't import the application, it'll just use a value ``undefined``, which is fine for
+local building.
