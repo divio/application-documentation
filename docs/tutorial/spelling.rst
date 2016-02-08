@@ -2,9 +2,9 @@
 Spelling checks
 ###############
 
-We want to be able to have automated spelling checking for the documentation, that can developers
+We want to be able to have automated spelling checking for the documentation, that developers
 can use to help when writing it, and also that runs on Travis, so that we can see at a glance
-whether a pull request contain documentation changes is free of spelling errors.
+whether a pull request containing documentation changes is free of spelling errors.
 
 
 ====================
