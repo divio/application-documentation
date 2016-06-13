@@ -52,7 +52,7 @@ Installation
 The Installation section needs to be reasonably comprehensive.
 
 Example: `Aldryn Jobs installation
-<http://aldryn-jobs.readthedocs.org/en/latest/introduction/installation.html>`_.
+<https://aldryn-jobs.readthedocs.io/en/latest/introduction/installation.html>`_.
 
 The Installation section is *required*.
 
@@ -67,7 +67,7 @@ steps you'd expect the site administrator to do to set it up within the Django a
 the ordinary content editor.
 
 Example: `Aldryn Jobs basic usage
-<http://aldryn-jobs.readthedocs.org/en/latest/introduction/basic_usage.html>`_.
+<https://aldryn-jobs.readthedocs.io/en/latest/introduction/basic_usage.html>`_.
 
 Unless these steps are unnecessary, or are completely obvious, this section is *required*.
 
@@ -103,7 +103,7 @@ The topics section is optional, but recommended if APIs and models are complex e
 several options that need to spelled out.
 
 Example: `Aldryn Jobs reference
-<http://aldryn-jobs.readthedocs.org/en/latest/reference/index.html>`_.
+<https://aldryn-jobs.readthedocs.io/en/latest/reference/index.html>`_.
 
 ***********************
 Development & community
@@ -136,9 +136,9 @@ end-user who is not a developer finds it useful.
 .. note::
 
    The ``introduction/basic_usage.rst`` section should have left the system in a state to make this
-   possible. See for example the `Aldryn Jobs documentation <http://aldryn-jobs.readthedocs.org>`_,
+   possible. See for example the `Aldryn Jobs documentation <https://aldryn-jobs.readthedocs.io>`_,
    in which the `Using Aldryn Jobs
-   <http://aldryn-jobs.readthedocs.org/en/latest/user/index.html#using-aldryn-jobs>`_ section
+   <https://aldryn-jobs.readthedocs.io/en/latest/user/index.html#using-aldryn-jobs>`_ section
    assumes that the Introduction has configured the basics in the admin.
 
 The user-facing documentation needs to be written for a *user*, not simply for a developer or
